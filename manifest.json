@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Social Hub",
+    "description": "Quick launch Social Hub",
+    "version": "1.0.0",
+    "icons": {"128":"s_128.png"},
+    "browser_action":{
+        "default_icon": "slogo.png",
+        "default_popup":"extension.html"
+    },
+    "permissions":["activeTab"]
+}
